@@ -24,5 +24,6 @@ def now_serving(name)
     katz_deli.shift 
   else
     puts "There is nobody waiting to be served!"
+    name.shift
   end
 end
