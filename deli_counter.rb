@@ -19,7 +19,7 @@ puts "Welcome, #{name}. You are number #{number.length} in line."
 end
 
 def now_serving(name)
-  if katz_deli.length >=1 
+  if name.length >=1 
     puts "Currently serving #{name}"
     katz_deli.shift 
   else
