@@ -18,9 +18,9 @@ def take_a_number(number, name)
 puts "Welcome, #{name}. You are number #{number.length} in line."
 end
 
-def now_serving(array)
+def now_serving(name)
   if katz_deli.length >=1 
-    puts "#{name}"
+    puts "Currently serving #{name}"
     katz_deli.shift 
   else
     puts "There is nobody waiting to be served!"
